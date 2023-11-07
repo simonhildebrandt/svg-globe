@@ -1,0 +1,12 @@
+{
+  "name": "globe",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "serve": "live-server --port=9000 --entry-file=index.html"
+  },
+  "dependencies": {
+    "live-server": "1.2.1"
+  }
+}

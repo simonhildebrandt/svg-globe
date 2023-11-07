@@ -1,0 +1,65 @@
+#group1 {
+  animation: 5s linear infinite forwards cycling1;
+}
+
+#group2 {
+  animation: 5s linear infinite forwards cycling2;
+}
+
+@keyframes cycling1 {
+  0% {
+    transform: translate(0px, 0);
+    opacity: 1;
+  }
+
+  25% {
+    transform: translate(10px, 0);
+    opacity: 1;
+  }
+
+  25.1% {
+    opacity: 0;
+  }
+
+  50% {
+    transform: translate(-20px, 0);
+    opacity: 0;
+  }
+
+  50.1% {
+    opacity: 1;
+  }
+
+  100% {
+    transform: translate(0px, 0);
+    opacity: 1;
+  }
+}
+
+@keyframes cycling2 {
+  0% {
+    transform: translate(-20px, 0);
+    opacity: 1;
+  }
+
+  75% {
+    transform: translate(10px, 0);
+    opacity: 1;
+  }
+
+  75.1% {
+    transform: translate(10px, 0);
+    opacity: 0;
+  }
+
+  99.9% {
+    transform: translate(-20px, 0);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translate(-20px, 0);
+    opacity: 1;
+  }
+
+}

@@ -1,0 +1,6 @@
+node_modules/
+
+.envrc
+
+dev/index.js
+public/index.js

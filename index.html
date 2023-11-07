@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Globe example</title>
+    <style>
+      html, body, #app {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        background-color: #AAA;
+      }
+    </style>
+    <link rel="stylesheet" href="globe.css">
+    <meta
+      name="viewport"
+      content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no"
+    >
+    <script src="https://unpkg.com/@iconfu/svg-inject@1.2.3/dist/svg-inject.min.js"></script>
+  </head>
+  <body>
+    <div style="">
+      <img src="globe.svg" onload="SVGInject(this, {makeIdsUnique: false})"/>
+    </div>
+  </body>
+</html>
